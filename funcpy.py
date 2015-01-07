@@ -3,8 +3,9 @@
 # @Author: JacobSamro
 # @Date:   2014-12-21 15:19:44
 # @Last Modified by:   JacobSamro
-# @Last Modified time: 2015-01-03 00:22:54
+# @Last Modified time: 2015-01-03 00:26:40
 import math
+import re
 	
 class fp(object):
 	def __init__(self, arg):

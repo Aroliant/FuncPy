@@ -3,7 +3,7 @@
 # @Author: JacobSamro
 # @Date:   2014-12-21 15:21:07
 # @Last Modified by:   JacobSamro
-# @Last Modified time: 2015-01-03 00:23:09
+# @Last Modified time: 2015-01-03 00:25:19
 
 from funcpy import *
 
@@ -18,6 +18,7 @@ print ( fp.explode(' ', data))
 print(fp.uclast('hello'))
 
 nums = [1,2,3,23,53,6,7,8,9,10]
+
 
 print(fp.max(nums))
 
