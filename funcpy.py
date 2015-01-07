@@ -3,9 +3,10 @@
 # @Author: JacobSamro
 # @Date:   2014-12-21 15:19:44
 # @Last Modified by:   JacobSamro
-# @Last Modified time: 2015-01-03 00:26:40
+# @Last Modified time: 2015-01-08 00:44:43
 import math
 import re
+import sys
 	
 class fp(object):
 	def __init__(self, arg):
@@ -39,4 +40,13 @@ class fp(object):
 	        return list(string)
 	    else:
 	        return string.split(splitter, len(string))	
+
+	def sizeof(data):
+		return sys.getsizeof(data)
+
+	def str_replace(data,f,t):
+		return data.replace(f,t)
+
+	def str_reverse(data):
+		return data[::-1]
 		
